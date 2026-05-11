@@ -805,9 +805,9 @@ def page_about_dev():
 
     st.markdown("#### 🔗 Connect")
     c1,c2,c3=st.columns(3)
-    with c1: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">🔗</div><div style="color:#a78bfa;font-weight:600">LinkedIn</div><div class="stat-lbl">linkedin.com/in/yourprofile</div></div>',unsafe_allow_html=True)
-    with c2: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">🐱</div><div style="color:#a78bfa;font-weight:600">GitHub</div><div class="stat-lbl">github.com/yourusername</div></div>',unsafe_allow_html=True)
-    with c3: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">📧</div><div style="color:#a78bfa;font-weight:600">Email</div><div class="stat-lbl">your@email.com</div></div>',unsafe_allow_html=True)
+    with c1: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">🔗</div><div style="color:#a78bfa;font-weight:600">LinkedIn</div><div class="stat-lbl">https://www.linkedin.com/in/abijeet-gorai-25bb513a3/</div></div>',unsafe_allow_html=True)
+    with c2: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">🐱</div><div style="color:#a78bfa;font-weight:600">GitHub</div><div class="stat-lbl">https://github.com/abijeet09</div></div>',unsafe_allow_html=True)
+    with c3: st.markdown('<div class="stat-card"><div style="font-size:1.5rem">📧</div><div style="color:#a78bfa;font-weight:600">Email</div><div class="stat-lbl">abijeetgorai906@email.com</div></div>',unsafe_allow_html=True)
 
     st.markdown("<br>",unsafe_allow_html=True)
     _,ctr,_=st.columns([2,1,2])
